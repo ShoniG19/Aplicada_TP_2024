@@ -111,6 +111,8 @@ El archivo de salida `output/output.csv` contiene las siguientes columnas:
 - `Tiempo de Fuzzificacion`: Tiempo que tomó fuzzificar cada tweet individualmente.
 - `Tiempo de Defuzzificacion`: Tiempo que tomó defuzzificar cada tweet individualmente.
 
+#### Ejemplo de Salida por consola generado en el Benchmarks 
+
 ![image](https://github.com/user-attachments/assets/533d2325-ffa5-465a-8c46-e9e1dec59313)
 
 
