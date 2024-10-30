@@ -116,5 +116,5 @@ El archivo de salida `output/output.csv` contiene las siguientes columnas:
 
 ## 📜Licencia
 
-Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo [MIT](https://choosealicense.com/licenses/mit/) para más detalles.
+Este proyecto está licenciado bajo la licencia [MIT](LICENSE).
 
