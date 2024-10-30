@@ -59,7 +59,7 @@ Para instalar y configurar el proyecto en tu máquina local, sigue estos pasos:
 
 1. Clona el repositorio:
 ```bash
-   git clone https://github.com/usuario/TweetFuzzySentimentAnalysis.git
+   git clone https://github.com/ShoniG19/TweetFuzzySentimentAnalysis.git
 ```
 
 2. Navega al directorio del proyecto:
