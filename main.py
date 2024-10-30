@@ -312,7 +312,7 @@ def benchmarks(df):
 
 if __name__ == "__main__":
     # Cargar el dataset (MODULO 1)
-    data_dir =  "test_data.csv"
+    data_dir =  "./data/test_data.csv"
     df = pd.read_csv(data_dir)
 
     # Iniciar el cronómetro para medir el tiempo de ejecución total
@@ -379,7 +379,9 @@ if __name__ == "__main__":
             'fuzzification_time': 'Tiempo de Fuzzificacion',
             'defuzzification_time': 'Tiempo de Defuzzificacion',
         })
-        df[['Tweet', 'Label', 'Puntaje Positivo', 'Puntaje Negativo', 'Puntaje Neutro', 'Clasificacion', 'COA','Tiempo de Fuzzificacion', 'Tiempo de Defuzzificacion', 'Tiempo de ejecucion Total']].to_csv('output.csv', index=False, sep=';')
+        df[['Tweet', 'Label', 'Puntaje Positivo', 'Puntaje Negativo', 'Puntaje Neutro', 'Clasificacion', 'COA','Tiempo de Fuzzificacion', 'Tiempo de Defuzzificacion', 'Tiempo de ejecucion Total']].to_csv('./output/output.csv', index=False, sep=';')
+
+
 
         # import os
         # os.system("start output.csv")
