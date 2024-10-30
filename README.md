@@ -73,7 +73,8 @@ Para instalar y configurar el proyecto en tu máquina local, sigue estos pasos:
 ``` 
 ## 🚀Uso
 Para ejecutar el análisis de sentimiento en los tweets:
-1. Ejecuta el script principal main.py:
+1. Asegúrate de crear una carpeta llamada `output` si aún no existe.
+2. Ejecuta el script principal main.py:
 ```bash
    python main.py
 ```
